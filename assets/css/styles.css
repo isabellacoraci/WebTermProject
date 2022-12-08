@@ -5,6 +5,7 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 nav{
@@ -26,6 +27,11 @@ body h1{
 }
 
 #arch {
-    width: 80%;
+    width: 65%;
     height: 240px;
+    
+    max-width: 100%;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
 }
