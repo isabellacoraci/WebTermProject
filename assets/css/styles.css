@@ -19,6 +19,10 @@ nav li{
     display:inline;
 }
 
+nav li:hover{
+    background-color: orange;
+}
+
 body h1{
     margin-left: auto;
     margin-right: auto;
