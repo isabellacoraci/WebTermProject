@@ -8,7 +8,7 @@ let firstemail = document.forms.signinForm.firstemail
 let secondemail = document.forms.signinForm.secondemail
 let errs = document.querySelector("#errors")
 
-btn.addEventListener("click", validatEmails)
+btn.addEventListener("click", validateEmails)
 
 function validateEmails(event) {
     if(firstemail.value != secondemail.value) {
